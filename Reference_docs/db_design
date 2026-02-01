@@ -1,0 +1,12 @@
+## Tables (Intial, just for myself)
+1. users -> user_id, Name, Email, Password , Last_logged_in, is_active, is_locked, last_bad_tries, current_suscription(subscriptions.subscription_id), last_location_access, remaining_tokens, joining_date, role
+2. subscriptions -> subscription_id, name, duration, price, is_active, num_of_responses
+3. OAuth_providers -> id i.e Google, Microsoft
+4. user_oauths -> user_id(users.user_id), oauth_service (OAuth_providers.id) , other revant information
+5. questions_answers -> user_id, question, answer, num_token_used, timestamp
+6. user_subscriptions -> user_id, subscription_id, price_taken_subs, start_date, end_date, renewal_date, is_active, is_auto_renewal
+7. user_subscriptions_history -> Preserves all historical usage data
+8. roles -> role_id, role_name, controls access
+9. rate_limiting -> is_ip_based, is_per_user, limit, apply_to
+
+
