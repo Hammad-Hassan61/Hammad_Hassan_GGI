@@ -150,10 +150,10 @@ erDiagram
    ```
 
 ## API Usage
-The system provides a comprehensive Postman collection for testing all endpoints.
+The system provides a comprehensive Postman collection for testing endpoints.
 
 ### Postman Setup
-1. Import `postman_collection.json` into Postman.
+1. Import `test/postman_collection.json` into Postman.
 2. Configure Collection Variables:
    - `baseUrl`: The URL where your server is running (default: `http://localhost:3000`).
 3. Authentication Flow:
